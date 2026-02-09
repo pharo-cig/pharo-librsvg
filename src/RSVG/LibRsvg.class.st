@@ -959,7 +959,7 @@ LibRsvg >> macLibraryName [
 
 	^ FFIMacLibraryFinder new
 		userPaths: #('./CIG/lib');
-		findLibrary: 'librsvg.dylib'
+		findLibrary: 'librsvg-2.dylib'
 ]
 
 { #category : 'accessing' }
@@ -1024,5 +1024,5 @@ LibRsvg >> win32LibraryName [
 
 	^ FFIWindowsLibraryFinder new
 		userPaths: #('./CIG/lib');
-		findLibrary: 'rsvg.dll'
+		findLibrary: 'librsvg-2.dll'
 ]
