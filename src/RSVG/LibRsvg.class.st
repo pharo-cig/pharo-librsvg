@@ -1016,7 +1016,7 @@ LibRsvg >> unix64LibraryName [
 
 	^ FFIUnix64LibraryFinder new
 		userPaths: #('./CIG/lib');
-		findLibrary: 'librsvg-2.so'
+		findAnyLibrary: #('librsvg-2.so' 'librsvg-2.so.2')
 ]
 
 { #category : 'accessing - platform' }
